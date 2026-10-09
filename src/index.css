@@ -1,0 +1,22 @@
+@import "tailwindcss";
+
+@layer base {
+  body {
+    font-family: 'Plus Jakarta Sans', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    background-color: #08090c;
+    color: #f4f4f6;
+    overflow-x: hidden;
+  }
+}
+
+.font-heading {
+  font-family: 'Cabinet Grotesk', 'Plus Jakarta Sans', sans-serif;
+  letter-spacing: -0.03em;
+}
+
+/* Custom subtle noise or ambient gradient for high-end boutique aesthetics */
+.bg-ambient-glow {
+  background: radial-gradient(circle at 50% 0%, rgba(212, 175, 55, 0.08) 0%, rgba(20, 22, 28, 0) 65%),
+              radial-gradient(circle at 10% 30%, rgba(255, 255, 255, 0.03) 0%, transparent 40%),
+              radial-gradient(circle at 90% 70%, rgba(212, 175, 55, 0.05) 0%, transparent 50%);
+}

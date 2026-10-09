@@ -1,0 +1,7 @@
+{
+  "name": "LINS STORE OFICIAL | Bio Site",
+  "description": "Bio site oficial da LINS STORE OFICIAL em Prazeres, Jaboatão dos Guararapes - PE. Moda masculina, os melhores kits, localização, entregas e links oficiais.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
+
